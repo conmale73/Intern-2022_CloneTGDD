@@ -1,0 +1,71 @@
+.g4403 {
+    background-color: #000;
+    padding-top: 20px;
+}
+.group {
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+
+    img {
+        display: block;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.wrapperBestSellingLenovo {
+    background-position: center top;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    position: relative;
+}
+section {
+    width: 100%;
+    margin: auto;
+}
+.bg-bestSellingLenovo {
+    background-image: url('https://cdn.tgdd.vn/2022/06/campaign/Background-1-1920x1148-1.png');
+}
+.listproduct-key-bestSellingLenovo {
+    a {
+        position: absolute;
+        left: 20%;
+        width: 28%;
+        top: 20%;
+        height: 25.5%;
+    }
+    a:nth-child(3) {
+        left: 52%;
+    }
+    b {
+        position: absolute;
+        left: 17%;
+        bottom: 15%;
+        margin: auto;
+        font-size: 24px;
+        color: #222;
+    }
+}
+
+
+.listProduct-bestSellingLenovo {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    .item-bestSellingLenovo {
+        background: transparent
+            url(https://cdn.tgdd.vn/2022/06/campaign/bg-sp-key-230x489.png)
+            no-repeat center top;
+        background-size: 100% 100%;
+        padding: 50px 20px 25px 20px;
+        border: none;
+    }
+}

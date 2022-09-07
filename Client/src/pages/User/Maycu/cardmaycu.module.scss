@@ -1,0 +1,92 @@
+.container{
+    font: 14px/18px Helvetica,Arial,'DejaVu Sans','Liberation Sans',Freesans,sans-serif;
+    float: left;
+    width: 19.917%;
+    height: 310px;
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid #ececec;
+    border-right: 1px solid #ececec;
+    cursor: pointer;
+    .img{
+        display: block;
+        width: 150px;
+        height: 150px;
+        margin: 15px auto 20px;
+    }
+    div{
+        display: block;
+        font-size: 16px;
+        color: #d0021b;
+        font-weight: 600;
+        margin: 0 5px;
+    }
+    .divExtend{
+        position: absolute;
+        bottom: 41%;
+        left: 0;
+        margin: 0;
+        .quantity {
+            background: #f4f4f4;
+            padding: 0 5px;
+            font-size: 11px;
+            border-radius: 2px;
+            margin-left: 5px;
+            color: #8d8d8d;
+            display: inline-block;
+        }
+    }
+    h3 {
+        display: block;
+        line-height: 1.3em;
+        font-size: 14px;
+        color: #333;
+        font-weight: 600;
+        margin: 10px 10px 5px 5px;
+        max-height: 36px;
+        overflow: hidden;
+        text-align: left;
+    }
+    span {
+        color: #999;
+        font-weight: normal;
+        margin-right: 4px;
+        font-size: 13px;
+    }
+    .priceLine {
+        margin-left:4px ;
+        text-decoration: line-through;
+    }
+    label {
+        display: block;
+        padding: 5px 5px 0;
+        font-size: 13px;
+        color: #999;
+    }
+    .labelshock{
+        vertical-align: middle;
+        position: absolute;
+        right: 0;
+        top: 5px;
+        color: #fff;
+        font-weight: 600;
+        background: #f51212;
+        border-radius: 3px;
+        padding: 3px 8px;
+        margin: 1px 10px 0 5px;
+        height: 24px;
+    }
+
+    .labelshock::before{
+        content: "";
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 10px 10px 0 0;
+        border-color: #f00 transparent transparent transparent;
+        position: absolute;
+        bottom: -4px;
+        left: 0;
+    }
+}

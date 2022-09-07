@@ -1,0 +1,76 @@
+.tabMayCu{
+    font: 14px/18px Helvetica,Arial,'DejaVu Sans','Liberation Sans',Freesans,sans-serif;
+    position: relative;
+    height: 45px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #d9d9d9;
+    display: block;
+    margin-top: 5px;
+    .textchoose{
+        
+        .box_scroll{
+            
+            .naviused{
+                display: flex;
+                float: left;
+                overflow: hidden;
+                background: #f4f4f4;
+                border-top: 1px solid #d9d9d9;
+                border-left: 1px solid #d9d9d9;
+                border-right: 1px solid #d9d9d9;
+                border-top-left-radius: 3px;
+                border-top-right-radius: 3px;
+                .actused{
+                    border-bottom: 1px solid #fff;
+                    background: #fff;
+                    border-top: 2px solid #288ad6;
+                    .icon-hot{
+                       
+                        text-align: center;
+                        text-transform: uppercase;
+                        margin: 0;
+                        display: inline-block;
+                        height: 50px;
+                        
+                        vertical-align: middle;
+                        background: url(//cdn.tgdd.vn/may-doi-tra/Content/desktop/images/Hot@1x.png);
+                        background-repeat: no-repeat;
+                        width: 40px;
+                        background-size: 32px 17px;
+                        
+                        font-size: 14px;
+                        color: #4a4a4a;
+                        padding: 10px;
+                    } 
+                    a {
+                        display: flex;
+                        font-size: 11px;
+                        padding: 15px 7px 5px;
+                        text-align: center;
+                        text-transform: uppercase;
+                        color: #333;
+                    }
+                
+                }
+                li {
+                    height: 45px;
+                    border-right: 1px solid #d9d9d9;
+                    border-bottom: 1px solid #d9d9d9;
+                    a {
+                        display: block;
+                        font-size: 11px;
+                        padding: 15px 7px 5px;
+                        text-align: center;
+                        text-transform: uppercase;
+                        color: #288ad6;
+                    }
+                }
+            }
+        }
+        .linkused{
+    float: right;
+    color: #288ad6;
+    padding: 15px 10px;
+        }
+    }
+}

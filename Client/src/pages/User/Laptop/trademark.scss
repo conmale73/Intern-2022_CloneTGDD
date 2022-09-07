@@ -1,0 +1,40 @@
+.trademark {
+    max-width: 1200px;
+    margin: 40px auto 30px;
+
+    .trademark__title {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .trademark__body {
+        width: 100%;
+        display: flex;
+
+        .trademark__box+.trademark__box {
+            margin-left: 14px;
+        }
+
+        .item-img {
+            border-radius: 7px;
+        }
+    }
+}
+
+.othercate {
+    max-width: 1200px;
+    margin: 40px auto 30px;
+
+    .othercate__title {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .menu-top div{
+        grid-template-columns: repeat(10, minmax(0, 1fr));
+    }
+}

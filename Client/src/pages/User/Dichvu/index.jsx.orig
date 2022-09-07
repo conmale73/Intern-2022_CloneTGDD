@@ -1,0 +1,13 @@
+<<<<<<< HEAD
+export {default} from "./Dichvu"
+=======
+import { useEffect } from 'react'
+function Dichvu({ title }) {
+    useEffect(() => {
+        document.title = title
+    }, [])
+    return <p>dich vu</p>
+}
+
+export default Dichvu
+>>>>>>> 02f5f493462b43c8589518f0c820caf8bd73423b

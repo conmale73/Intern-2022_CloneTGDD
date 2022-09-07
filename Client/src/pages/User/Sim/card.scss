@@ -1,0 +1,167 @@
+.liSim {
+    font: 14px/18px Arial,Helvetica,sans-serif;
+    padding: 0;
+    float: left;
+    width: 48%;
+    margin: 0 2% 2% .5%;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 4px;
+    border: 1px solid #dadada;
+    position: relative;
+    max-height: 205px;
+}
+.liSim .vina{
+    color: #333;
+    margin: 0;
+    float: left;
+    width: 132px;
+    height: max-content;
+    text-align: center;
+    background: #42afef url(https://cdn.tgdd.vn/sim-so-dep/Content/desktop/images/bagsim.png) no-repeat;
+    border-radius: 4px 0 0 4px;
+    padding: 0;
+    position: relative;
+}
+
+.liSim label{
+    outline: none;
+    display: block;
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10%;
+    z-index: 10;
+    left: 22%;
+}
+
+.liSim a{
+    margin: 0;
+    transition: .2s;
+    color: #288ad6;
+    display: block;
+    overflow: hidden;
+    padding: 0;
+}
+
+.liSim span{
+    font-size: 13px ;
+    float: left;
+    padding: 2px;
+    margin: 10px 0;
+    overflow: hidden;
+    color: #333;
+    text-align: center;
+    border-right: 1px solid #dadada;
+    width: 33%;
+}
+.liSim span:nth-child(3) {
+    border: 0;
+    width: 33%;
+}
+.liSim span:nth-child(2) {
+    width: 32%;
+}
+
+.liSim .iconsimcard-data{
+    color: #333;
+    text-align: center;
+    padding: 0;
+    background-image: url(https://cdn.tgdd.vn/sim-so-dep/Content/desktop/images/2020/sp-sim-desk-20200805@2x.png);
+    background-size: 340px 2400px;
+    background-repeat: no-repeat;
+    line-height: 30px;
+    background-position: -235px -345px;
+    width: 19px;
+    height: 20px;
+    display: block;
+    margin: 0 auto 5px;
+}
+
+.liSim .iconsimcard-call {
+    background-position: -260px -345px;
+    width: 22px;
+    height: 21px;
+    display: block;
+    margin: 0 auto 5px;
+    background-image: url(https://cdn.tgdd.vn/sim-so-dep/Content/desktop/images/2020/sp-sim-desk-20200805@2x.png);
+    background-size: 340px 2400px;
+    background-repeat: no-repeat;
+    line-height: 30px;
+    
+}
+.liSim .iconsimcard-radio{
+    text-rendering: geometricPrecision;
+    font-size: 12px;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://cdn.tgdd.vn/sim-so-dep/Content/desktop/images/2020/sp-sim-desk-20200805@2x.png);
+    background-size: 340px 2400px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    line-height: 30px;
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+    margin-left: -20px;
+    margin-right: 1px;
+    margin-bottom: 3px;
+    background-position: -20px 0;
+}
+
+.liSim .check{
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    text-rendering: geometricPrecision;
+    font-size: 12px;
+    line-height: 10px;
+    color: #333;
+    padding: 0 0 3px 20px;
+    margin: 0 0 0 10px;
+    clear: both;
+}
+
+.liSim .inf {
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    bottom: 5px;
+    left: 34%;
+}
+.liSim .price {
+    float: left;
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0 10px;
+    margin-left: 10px;
+    margin-top: 4px;
+}
+
+.liSim strong{
+    color: #d0021b;
+    display: block;
+    font-size: 16px;
+    
+}
+.liSim .chnumber {
+    float: left;
+    overflow: hidden;
+    padding: 6px 15px;
+    background: #fff;
+    border: 1px solid #288ad6;
+    border-radius: 3px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #288ad6;
+    margin: 7px 0 0 15px;
+}
+
+.liSim.right{
+    margin-right: 11px;
+}

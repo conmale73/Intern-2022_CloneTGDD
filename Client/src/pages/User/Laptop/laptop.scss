@@ -1,0 +1,23 @@
+
+.blocklist {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    .block__gaming {
+        background-color: #25304b;
+    }
+}
+
+#dealsoc .listcontent{
+    background-color: #ffd400;
+}
+
+#gaming {
+    background-color: #25304b;
+}
+
+#gaming .listcontent__btn {
+    background: linear-gradient(92.4deg, #ffd400 0%, #febf00 100%);
+    box-shadow: 0 0 20px #b88a00;
+}

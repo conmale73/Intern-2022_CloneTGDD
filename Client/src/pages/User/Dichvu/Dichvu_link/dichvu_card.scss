@@ -1,0 +1,36 @@
+.container__dichvu_card {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+
+.dichvu_card {
+    background-color: #F1F1F1;
+    padding: 15px 0;
+    max-width: 1200px;
+    margin-top: 15px;
+    border-radius: 12px;
+
+    div {
+        display: grid;
+        grid-auto-rows: minmax(min-content, max-content);
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+        
+        margin: auto;
+        gap: 20px;
+    }
+    
+    a  {
+        align-items: center;
+        background-color: #fff;
+        justify-content: center;
+        display: flex;
+        height: 60px;
+        border-radius: 12px;
+    }
+    a:hover {  
+            background-color: #288AD6;      
+            color: #fff;
+    }
+}
+

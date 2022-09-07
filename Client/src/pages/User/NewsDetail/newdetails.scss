@@ -1,0 +1,31 @@
+.befor-hour::before{
+    content: "";
+    display: block;
+    width: 4px;
+    position: absolute;
+    height: 4px;
+    top: 7px;
+    left: -5px;
+    background-color: rgb(100, 177, 177);
+    border-radius: 50%;
+}
+li::marker{
+    color: #649ff3;
+}
+[class^="iconnews-"], [class*="iconnews-"] {
+    background-image: url(https://cdn.tgdd.vn/tin-tuc/Content/desktop/images/newsdesktop-v6@2x.png);
+    background-size: 390px 224px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+}
+.iconnews-comorg {
+    background-position: -100px -20px;
+    width: 11px;
+    height: 10px;
+    margin: 0 1px 0 0;
+    margin-right: 3px;
+}

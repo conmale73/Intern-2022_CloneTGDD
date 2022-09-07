@@ -1,0 +1,93 @@
+.menu-top {
+    background-color: #f1f1f1;
+    max-width: 100%;
+    padding: 15px 0;
+    margin: auto;
+    div {
+        display: grid;
+        grid-auto-rows: minmax(min-content, max-content);
+        grid-template-columns: repeat(8, minmax(0, 1fr));
+        max-width: 1200px;
+        margin: auto;
+        text-align: center; 
+    }
+
+    .nav-item {
+        color: #000;
+        font-size: 16px;
+        line-height: 17px;
+    }
+
+    .box-icon {
+        align-items: center;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        height: 56px;
+        margin: 0 auto 6px;
+        width: 56px;
+        background-color: #fff;
+    }
+
+}
+
+.iconlt-dealsoc {
+    background-position: 0 0;
+    width: 34px;
+    height: 43px;
+}
+
+.iconlt-gaming {
+    background-position: -127px 0;
+}
+
+.iconlt-macbook {
+    background-position: -254px 0;
+}
+
+.iconlt-hoc-tap-van-phong {
+    background-position: -381px 0;
+}
+
+.iconlt-do-hoa-ky-thuat {
+    background-position: -508px 0;
+}
+
+.iconlt-mong-nhe {
+    background-position: -630px 0;
+}
+
+.iconlt-cao-cap-sang-trong {
+    background-position: -757px 0;
+}
+
+.iconlt-phan-mem {
+    background-position: -850px 0;
+}
+
+[class^="iconlt-"],
+[class*="iconlt-"] {
+    background-image: url(//cdn.tgdd.vn/mwgcart/mwg-site/ContentMwg/images/laptop/iconlaptop@2xv3.png?v=2);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 34px;
+    height: 43px;
+    line-height: 30px;
+    vertical-align: middle;
+    background-size: 885px 43px;
+}
+
+.menu-top-fixed {
+    background-color: #333;
+    max-width: 100%;
+    padding: 15px 0;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    .nav-item{
+        color: #fff;
+    }
+}

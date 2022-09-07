@@ -1,0 +1,150 @@
+.navNewsWrapper {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+
+    .user-login {
+        align-items: center;
+        justify-content: flex-end;
+        width: 40%;
+        a:hover {
+            color: inherit;
+        }
+        .user_login-block {
+            height: 25px;
+            display: flex;
+
+            align-items: center;
+            border-left: 1px solid #dfdfdf;
+            padding: 0 7px;
+
+            .log-in {
+                margin-left: 3px;
+                font-size: 15px;
+                color: #333;
+            }
+            .iconnews-ava-default {
+                width: 25px;
+                height: 25px;
+                background-position: -325px -53px;
+                margin-right: 3px;
+            }
+        }
+    }
+    .menu {
+        max-width: 1200px;
+        display: flex;
+        align-items: center;
+        position: relative;
+
+        // background-color: #162719;
+        .mainsearch {
+            display: block;
+            background: none;
+            position: absolute;
+            top: 70px;
+            left: 0;
+            right: 0;
+            height: 92.5vh;
+            z-index: 9;
+            form {
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                background: #fff;
+                padding: 10px;
+                height: 47px;
+                position: relative;
+                z-index: 1;
+            }
+            .formspec {
+                display: block;
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 0;
+                z-index: 0;
+                height: 92.5vh;
+                background: rgba(0, 0, 0, 0.8);
+            }
+            input {
+                display: block;
+                border: 1px solid #d9d9d9;
+                border-radius: 4px;
+
+                padding: 8px 10px;
+                outline: none;
+                height: 28px;
+                width: 84%;
+                float: left;
+                position: relative;
+                z-index: 2;
+            }
+            button {
+                height: 38px;
+                width: 95px;
+                text-align: center;
+                background: #fbd020;
+                border: 1px solid #fbd020;
+                border-radius: 4px;
+                font-size: 16px;
+                font-weight: 600;
+                color: #333;
+            }
+        }
+
+        li {
+            position: relative;
+            margin-right: 3px;
+            .iconnews-logo {
+                background-position: 0 0;
+                width: 28px;
+                height: 28px;
+                display: block;
+                margin: 10px auto;
+            }
+            .label {
+                position: absolute;
+                color: white;
+                right: -4px;
+                top: -15px;
+                background-color: red;
+                border-radius: 3px;
+                font-size: 10px;
+                padding: 0 7px;
+                line-height: 1.6rem;
+            }
+            a {
+                font-size: 15px;
+            }
+        }
+        .active {
+            a:hover {
+                color: #333 !important;
+            }
+        }
+    }
+}
+[class^='icon-'],
+[class*='icon-'] {
+    background-image: url(//cdn.tgdd.vn/mwgcart/mwg-site/ContentMwg/images/homev2/desk/icon_common@2x.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    background-size: 300px 200px;
+}
+[class^='iconnews-'],
+[class*='iconnews-'] {
+    background-image: url(https://cdn.tgdd.vn/tin-tuc/Content/mobile/images/newsiconmobile-v6.png);
+    background-size: 391px 226px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+}

@@ -1,0 +1,28 @@
+
+
+.see-all{
+    border-radius: 4px;
+    margin: 10px 0;
+    position: relative;
+    padding-right: 10px;
+    color: #fff;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: max-content;
+    max-width: 27%;
+    float: right;
+    font-size: 1.4rem;
+}
+.see-all:after {
+    content: '';
+    border-left: 5px solid #fff;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    position: absolute;
+    top: 6px;
+    right: 0;
+}
+

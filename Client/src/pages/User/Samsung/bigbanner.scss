@@ -1,0 +1,25 @@
+.containner__bigbannerSamsung {
+    display: flex;
+    max-width: 100%;
+    height: 340px;
+    justify-content: center;
+    .containner__body {
+        display: flex;
+        max-width: 1200px;
+        height: 200px;
+        width: 100%;
+        .containner__first-item {
+            width: 1200px;
+        }
+    }
+}
+.slick-next {
+    right: 0 !important;
+}
+.slick-prev {
+    left: 0 !important;
+    z-index: 2;
+}
+.slick-dots {
+    bottom: 0 !important;
+}

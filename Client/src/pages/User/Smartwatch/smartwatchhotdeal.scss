@@ -1,0 +1,26 @@
+.blocklist {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    .block__gaming {
+        background-color: #25304b;
+    }
+}
+#dealsoc{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-color: #fff;
+    .content__smartwatch {
+        background-image: url(https://cdn.tgdd.vn/mwgcart/mwg-site/ContentMwg/images/smartwatch/bg_deal01.png);
+        background-repeat: no-repeat;
+        background-position: top right,bottom left;
+        background-color: #fb6e2e;
+        .deal__shock{
+            color: #fff;
+        }
+        .deal__discount{
+            color: #ffe500;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.featureProduct{
+    .featureName{
+        padding: 15px 0 5px 0;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 1.5;
+        .viewAll {
+            // display: inline-block;
+            padding: 5px 0;
+            color: #4a90e2;
+            text-transform: none;
+            padding-left: 10px;
+            font-size: 13px;
+            font-weight: 550;
+        }
+    }
+    .form{
+        .products{
+            display: block;
+            overflow: hidden;
+            margin: 0 auto;
+            max-width: 1200px;
+            width: 100%;
+            border-top: 1px solid #ececec;
+            border-left: 1px solid #ececec;
+        }
+    }
+  
+}

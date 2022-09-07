@@ -1,0 +1,280 @@
+.container__boxdichvu {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    padding: 10px;  
+    height: auto;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    font-weight: bold;
+    padding-left: 25px;
+}
+.boxdichvu{
+    display: block;
+    overflow: hidden;
+    background: #fff;
+    padding: 15px;
+    padding-left: 40px;
+    width: 1200px;
+    border-radius: 1px;
+    box-shadow: 1 1 10px 0rgba(0,0,0,.15);
+    border: 1px solid #e9e9e9;
+    margin: 5px;
+}
+.leftbox {
+    float: left;
+    overflow: visible;
+    width: 660px;
+    border-right: 1px solid #dedede;
+}
+
+.rightbox {
+    float: right;
+    overflow: hidden;
+    width: 460px;
+    padding-left: 2%;
+}
+.wraphelp {
+    display: block;
+    overflow: hidden;
+    background: #fff;
+    padding: 0 10px 10px;
+    margin: 10px 0;
+}
+.service {
+    display: block;
+    overflow: visible;
+    margin: 0 0 10px;
+}
+.service li .number {
+    float: left;
+    overflow: hidden;
+    line-height: 20px;
+    background: #63b4f3;
+    width: 25px;
+    height: 25px;
+    border: 3px solid #fff;
+    box-shadow: 0 0 3px 0 rgb(0 0 0 / 15%);
+    border-radius: 30px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 11px;
+    color: #fff;
+    margin-right: 5px;
+}
+.service li {
+    display: block;
+    overflow: visible;
+    position: relative;
+    clear: both;
+    padding-top: 10px;
+}
+
+.service li .step {
+    display: block;
+    overflow: visible;
+    clear: both;
+    margin-bottom: 10px;
+    margin-left: -53px;
+}
+.service li span {
+    display: block;
+    color: #666;
+    text-transform: uppercase;
+    padding: 3px;
+}
+
+.service li a:not(.checkpay):not(.normalstyle) {
+    float: left;
+    width: 140px;
+    margin: 0 4% 3% -3%;
+    height: 70px;
+    padding-top: 20px;
+    text-align: center;
+    color: #666;
+}
+
+.service .long a:hover {
+    border: 1px solid #288ad6;
+}
+
+#listnetwork a, #company a {
+    border: 1px solid #dedede;
+    box-shadow: 0 0 4px 0rgba(0,0,0,.15);
+}
+
+.service li a.actsteps {
+    border-color: #288ad6 !important;
+}
+
+[class^="tienich-"], [class*="tienich-"] {
+    background-image: url(//www.thegioididong.com/tien-ich/Content/desktop/images/2022/icontienich2022@0.5x.png?v=20211220);
+    background-repeat: no-repeat;
+    display: inline-block;
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+.helvus {
+    display: block;
+    overflow: hidden;
+    text-transform: uppercase;
+    line-height: 22px;
+    font-size: 18px;
+    padding: 0 10px 10px;
+    color: #288ad6;
+    font-weight: 600;
+    text-align: center;
+}
+
+.tienich-ho {
+    background-position: 0 -35px;
+    width: 92px;
+    height: 19px;
+}
+
+.tienich-fe {
+    background-position: -100px -35px;
+    width: 94px;
+    height: 14px;
+}
+
+.tienich-hd {
+    background-position: -200px -35px;
+    width: 91px;
+    height: 13px;
+}
+
+.tienich-acs {
+    background-position: -300px -35px;
+    width: 36px;
+    height: 13px;
+}
+
+.tienich-jac {
+    background-position: -350px -35px;
+    width: 56px;
+    height: 16px;
+}
+
+.tienich-mc {
+    background-position: -420px -175px;
+    width: 75px;
+    height: 30px;
+}
+
+.tienich-mira {
+    background-position: -346px -58px;
+    width: 68px;
+    height: 11px;
+}
+
+.tienich-doctor {
+    background-position: -300px -90px;
+    width: 68px;
+    height: 32px;
+    margin-top: -6px;
+}
+
+.tienich-easycredit {
+    background-position: 0 -118px;
+    width: 87px;
+    height: 31px;
+    margin-top: -7px;
+}
+
+.tienich-atmonline {
+    background-position: -100px -118px;
+    width: 65px;
+    height: 31px;
+    margin-top: -5px;
+}
+
+.tienich-cash24h {
+    background-position: -171px -118px;
+    width: 85px;
+    height: 25px;
+    margin-top: -3px;
+}
+
+.service li .inp {
+    float: left;
+    width: 48%;
+    padding: 10px 0;
+    line-height: 22px;
+    border-radius: 3px;
+    border: 1px solid #dedede;
+    box-shadow: 0 0 4px 0 rgb(0 0 0 / 15%);
+    margin: 0 4% 2% -3%;
+    text-indent: 10px;
+}
+
+input[type=text], input[type=tel], textarea {
+    -webkit-appearance: none;
+}
+
+.checkpay {
+    display: block;
+    width: 60%;
+    margin: 10px auto;
+    clear: both;
+    overflow: hidden;
+    padding: 15px 0;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: normal;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    background: #fd6e1d;
+    background: -webkit-gradient(linear,0% 0%,0% 100%,from(#fd6e1d),to(#f59000));
+    background: -webkit-linear-gradient(top,#f59000,#fd6e1d);
+    background: -moz-linear-gradient(top,#f59000,#fd6e1d);
+    background: -ms-linear-gradient(top,#f59000,#fd6e1d);
+    background: -o-linear-gradient(top,#f59000,#fd6e1d);
+}
+
+.boldtext {
+    display: block;
+    overflow: hidden;
+    text-transform: uppercase;
+    line-height: 22px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.infolist {
+    display: block;
+    overflow: hidden;
+}
+
+.infolist li{
+    margin: 20px;
+}
+
+
+.infolist li img {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.infolist li strong {
+    display: block;
+    color: #666;
+}
+.infolist li p {
+    display: block;
+    overflow: hidden;
+    color: #666;
+    line-height: 20px;
+}
+.infolist li span {
+    color: #ff0000
+}

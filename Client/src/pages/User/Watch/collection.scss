@@ -1,0 +1,16 @@
+.containerCollection{
+    .lnkBst:after {
+        content: '';
+        border-left: 5px solid #333;
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        position: absolute;
+        top: 6px;
+        right: 0;
+    }
+    img{
+        gap: 1rem !important;
+    
+    }
+} 
+
