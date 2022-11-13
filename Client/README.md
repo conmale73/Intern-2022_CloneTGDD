@@ -1,2 +1,6 @@
-### Demo
--    [demo](https://tgdd-iota.vercel.app)
+### Client
+Step !: Install packages
+-   yarn
+
+Step 2: Run project
+-   yarn dev
