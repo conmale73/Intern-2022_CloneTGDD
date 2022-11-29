@@ -45,6 +45,7 @@ function Home({ title }) {
                 <News />
                 <ProductBrand />
                 <ProductDeal />
+                
             </main>
         </div>
     );

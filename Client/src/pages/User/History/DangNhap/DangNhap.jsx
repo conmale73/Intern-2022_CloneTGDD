@@ -26,7 +26,7 @@ const DangNhap = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         const phoneNumber = '+84' + txtPhoneNumber;
-        if (phoneNumber.length < 10 || phoneNumber === '' || phoneNumber === undefined) {
+        if (phoneNumber.length < 9 || phoneNumber === '' || phoneNumber === undefined) {
             alert('Số điện thoại không hợp lệ');
         } else {
             setFlag(true);
@@ -76,6 +76,7 @@ const DangNhap = () => {
     const changeNum = (e) => {
         e.preventDefault();
         setFlag(false);
+        window.recaptchaVerifier.clear();
     };
     return (
         <section className={styles.login}>
@@ -108,7 +109,7 @@ const DangNhap = () => {
                         type="number"
                         maxLength="6"
                         value={otp}
-                        placeholder="Nhập mã xác nhận"
+                        placeholder="Nhập mã xác nhận"                      
                         onChange={(e) => setOtp(e.target.value)}
                     ></input>
                     <button className={styles.btn} id="submitOTP">

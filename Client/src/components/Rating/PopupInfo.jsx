@@ -99,7 +99,7 @@ function PopupInfo(props) {
                     </div>
                 </div>
             </div>
-            )}
+            
         </div>
     );
 }

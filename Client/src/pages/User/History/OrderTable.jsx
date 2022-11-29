@@ -59,7 +59,7 @@ const OrderTable = (props) => {
                 {props.data.map((order, index) => {
                     const styleStatus = style(order.status);
                     const displayDetail = index === orderDetail.index;
-                    const displayCancelBtn = resStatus.status != 'Đặt hàng';
+                    const displayCancelBtn = order.status != 'Đặt hàng';
                     const styleDisable = 'bg-gray-100';
                     return (
                         <Fragment key={index}>
@@ -84,7 +84,7 @@ const OrderTable = (props) => {
                                     <p className="">{order.createdAt}</p>
                                 </Table.Cell>
                                 <Table.Cell className={styleStatus}>
-                                    <span className="mr-4">{resStatus.status}</span>
+                                    <span className="mr-4">{order.status}</span>
                                     {order.payment.paid ? (
                                         <span className="text-white text-xl bg-green-500 p-2 rounded-lg">
                                             Đã thanh toán

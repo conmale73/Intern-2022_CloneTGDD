@@ -20,6 +20,7 @@ function CartInfo() {
     const dispatch = useDispatch();
     const navigate = useNavigate();
 
+    console.log(cartItems);
     const handleSubmit = async (e) => {
         e.preventDefault();
         const name = document.getElementById('fullname').value;
@@ -52,7 +53,7 @@ function CartInfo() {
             order_items: {
                 data: cartItems,
             },
-            createdAt: moment().format('HH:MM MM/DD/YYYY'),
+            createdAt: moment().format('MM/DD/YYYY'),
         };
         const res = await customerService.getCustomerByPhone(phone);
         if (res.length === 0) {
